@@ -72,7 +72,7 @@ angular.module('myApp', [])
 	};
 	
 	
-	//This function checks if you win or not. Need to fix it.
+	//This function checks if you win or not.
 	scope.CheckWinStatus = function(){
 		if(scope.ModelData.TargetNumbers.toString() == scope.ModelData.OriginalNumbers.toString()){
 			scope.TimeUp = true;
